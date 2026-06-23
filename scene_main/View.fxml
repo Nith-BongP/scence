@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="344.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="scene_main.Controller">
+   <children>
+
+      <!-- Title -->
+      <Label alignment="CENTER" layoutX="200.0" layoutY="20.0" prefWidth="200.0" text="Extra Project">
+         <font><Font name="System Bold" size="22.0" /></font>
+      </Label>
+
+      <!-- Subtitle -->
+      <Label alignment="CENTER" layoutX="200.0" layoutY="55.0" prefWidth="200.0" text="Multiple Scenes">
+         <font><Font size="14.0" /></font>
+      </Label>
+
+      <!-- Data Label -->
+      <Label fx:id="label_data" layoutX="210.0" layoutY="172.0" prefHeight="20.0" prefWidth="180.0" text="Data:">
+         <font><Font size="14.0" /></font>
+      </Label>
+
+      <!-- Goto Input Button -->
+      <Button fx:id="input_bt" layoutX="20.0" layoutY="279.0" mnemonicParsing="false" onAction="#on_go_input" prefHeight="35.0" prefWidth="180.0" text="Goto Scene Input" />
+
+      <!-- Goto Output Button -->
+      <Button fx:id="output_bt" layoutX="406.0" layoutY="279.0" mnemonicParsing="false" onAction="#on_go_output" prefHeight="35.0" prefWidth="180.0" text="Goto Scene Output" />
+      <ImageView fitHeight="109.0" fitWidth="108.0" layoutX="10.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/Logo-ITC-PNG.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="109.0" fitWidth="108.0" layoutX="478.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/Logo-GTR-PNG.png" />
+         </image>
+      </ImageView>
+
+   </children>
+</AnchorPane>
